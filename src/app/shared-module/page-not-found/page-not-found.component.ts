@@ -19,7 +19,6 @@ export class PageNotFoundComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    this.router = null;
   }
 
 }

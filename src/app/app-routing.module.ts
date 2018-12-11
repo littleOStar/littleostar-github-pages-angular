@@ -5,7 +5,7 @@ import {JumpPageComponent} from './shared-module/jump-page/jump-page.component';
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'jump'},
-  {path: 'jump', component: JumpPageComponent},
+  {path: 'jump', component: JumpPageComponent, data: {url: 'https://littleostar-blog.github.io'}},
   {path: '**', component: PageNotFoundComponent}
 ];
 
